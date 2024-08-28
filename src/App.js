@@ -28,13 +28,15 @@ const App = () => {
           <li>Decent CSS through various internet sources</li>
         </ul>
 
-        <p>Limitations</p>
+        <p>Database Configurations</p>
 
         <ul>
-          <li className='limit'>Database was not used</li>
-          <li className='limit'>Use of Database may have been used to store all the submitted data at one place</li>
-          <li className='limit'>A Seperate page for admin to access all the uploaded Data could be created through it</li>
+          <li>Connected through Node.js</li>
+          <li>Express</li>
+          <li>CORS</li>
+          <li>The data gets stored in a backend file named formData.json which is private and not displayed on the browser</li>
         </ul>
+
       </div>
 
       <button className='sign-up-button'>
